@@ -2,13 +2,29 @@
 
 <img width="655" height="445" alt="image" src="https://github.com/user-attachments/assets/4c2b9ccf-1216-4024-bcce-059c62c13647" />
 
-Camera Batch Render is a Blender add-on for rendering still images and frame
-ranges from multiple cameras in one batch. Camera names can define per-camera
-resolution and frame ranges, while the Render Properties panel controls filtering,
-output, overwrite behavior, progress, and cancellation.
+This Blender add-on lets you render images from multiple cameras with one click. The cameras with special tokens in the object's name can be used to configure:
+- image width in pixels 
+- image height in pixels
+- begin frame
+- end frame
 
 **Current version:** 1.8.2  
 **Minimum Blender version:** 3.6
+
+
+## Use Cases
+
+- **Product renders:** Render front, side, top, detail, and presentation views in one batch.
+
+- **UI and game assets:** Produce square icons, widescreen previews, and thumbnails using per-camera resolution tags.
+
+- **Animation previews:** Assign short frame ranges to specific cameras and render every shot automatically.
+
+- **Marketing exports:** Generate social media, storefront, and banner dimensions from the same scene.
+
+- **Camera comparisons:** Batch-test different lenses, framing, lighting viewpoints, or composition options.
+
+- and more...
 
 ## Features
 
